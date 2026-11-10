@@ -53,17 +53,9 @@ M 态前摄可用，但官方不推荐在该状态使用，设备开合角度和
 
 摄像头集合、输出规格和方向参数以运行时能力查询为准，物理镜头配置不表示所有镜头都能独立或同时打开。折展后重新核对可用前后摄，保持用户选择的镜头方向，不依赖固定 cameraId 或数组顺序。
 
-## 4. 适配说明与来源
+## 4. 适配说明
 
 - 屏幕英寸和 px 不直接换算为 vp；旋转、分屏、多窗或显示缩放后，读取当前窗口或容器尺寸。
 - 设备类型和断点不直接决定导航、列表列数或分栏，按页面内容及已确认方案选择布局。
 - 内外屏和显示形态分别记录；折叠设备展开后仍属于折叠设备，不自动变成 tablet。
-
-公共规则：[设备分类与形态](../../公共规则/设备分类与形态.md)、[尺寸单位与断点](../../公共规则/尺寸单位与断点.md)。
-
-**官方资料**
-
-- [华为官网规格参数](https://consumer.huawei.com/cn/phones/mate-xts-ultimate-design/specs/)
-- [三折叠应用开发](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-matext-guide)
-- [窗口模式](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-window-mode)
 

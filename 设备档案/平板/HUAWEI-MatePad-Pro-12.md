@@ -45,18 +45,9 @@
 
 版本说明：悦享款不支持红枫原色摄像头；4K 录像仅官网注明的 MatePad Pro 12 英寸版本支持，不能沿用到悦享款。
 
-## 4. 适配说明与来源
+## 4. 适配说明
 
 - 旋转、分屏、多窗和显示缩放后重新读取窗口或容器尺寸。
 - 设备型号不直接决定列表列数、导航位置或分栏，按页面内容和已确认方案处理。
 - 显示分辨率与照片、录像分辨率分别记录，不能相互替代。
-
-公共规则：[设备分类与形态](../../公共规则/设备分类与形态.md)、[尺寸单位与断点](../../公共规则/尺寸单位与断点.md)。
-
-**官方资料**
-
-- [华为官网规格参数](https://consumer.huawei.com/cn/tablets/matepad-pro-12/specs/)
-- [响应式布局](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-responsive-layout)
-- [窗口模式](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-window-mode)
-- [M-Pencil 与平板配对说明](https://consumer.huawei.com/cn/support/content/zh-cn16085407/)
 

@@ -70,21 +70,8 @@
 
 镜头配置不等于应用可打开或同时打开的相机集合。可用相机、输出规格、旋转和镜像参数以运行时查询为准，不依赖固定 cameraId 或数组顺序。
 
-## 4. 适配说明与来源
+## 4. 适配说明
 
 - 先确认具体型号、年份和版本，再读取对应参数；未收录的项目不使用同系列其他型号替代。
 - 屏幕英寸和 px 不直接换算为 vp；旋转、分屏、多窗或显示缩放后，重新读取窗口或容器尺寸。
 - 设备类型和断点不直接决定导航位置、列表列数或分栏，按页面内容和已确认方案选择布局。
-
-公共规则：[设备分类与形态](../../公共规则/设备分类与形态.md)、[尺寸单位与断点](../../公共规则/尺寸单位与断点.md)。
-
-**官方资料**
-
-| 适用型号 | 资料 |
-| --- | --- |
-| HUAWEI Mate 90 | [华为官网规格参数](https://consumer.huawei.com/cn/phones/mate90/specs/) |
-| 全部型号 | [响应式布局—尺寸与断点参考](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-responsive-layout) |
-| 全部型号 | [窗口模式](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-window-mode) |
-| HUAWEI Mate 90 Pro | [华为官网规格参数](https://consumer.huawei.com/cn/phones/mate90-pro/specs/) |
-| HUAWEI Mate 90 Pro Max | [华为官网规格参数](https://consumer.huawei.com/cn/phones/mate90-pro-max/specs/) |
-| HUAWEI Mate 90 RS 非凡大师 | [华为官网规格参数](https://consumer.huawei.com/cn/phones/mate90-rs-ultimate-design/specs/) |

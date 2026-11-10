@@ -20,7 +20,7 @@
 | 官网所列系统 | HarmonyOS 7.0；不代表用户设备当前安装的版本 |
 | 上市情况 | 512GB、1TB 和 1TB 灵盾防窥屏版本于 2026-09-12 正式开售；其他配置以官方购买指引为准 |
 
-名称、版本和系统来源：[华为官网规格参数](https://consumer.huawei.com/cn/phones/mate-xt-2-ultimate-design/specs/)；开售信息来源：[官方购买指引](https://consumer.huawei.com/cn/support/content/zh-cn16115136/)。Mate XT、Mate XTs 是不同机型，不共用本档案参数。
+Mate XT、Mate XTs 是不同机型，不共用本档案参数。
 
 ### 屏幕与使用形态
 
@@ -34,8 +34,6 @@
 
 尺寸按标准矩形测量，圆角屏幕的实际可视区域略小。不能将灵盾防窥屏版本的刷新率直接用于标准屏版本。
 
-来源：[华为官网规格参数](https://consumer.huawei.com/cn/phones/mate-xt-2-ultimate-design/specs/)。
-
 #### 五种常用形态
 
 宽高均按“宽 × 高”记录，方向采用官方指南的示例姿态。px、vp 和断点分别按官方表收录，vp 已向下取整，不是本档案自行按固定倍数换算。
@@ -47,8 +45,6 @@
 | LM | 双屏态 | 竖向 `portrait` | 2128 × 2232 | 709 × 744 | `md` | `md` |
 | RM | 双屏态 | 竖向 `portrait` | 2048 × 2232 | 682 × 744 | `md` | `md` |
 | G | 三屏态 | 横向 `landscape` | 3184 × 2232 | 1061 × 744 | `lg` | `sm` |
-
-来源：[三折叠应用开发—屏幕规格信息](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-matext-guide)。
 
 - F 与 N、LM 与 RM 的尺寸分别不同，不合并为一个“单屏”或“双屏”尺寸。
 - 上表用于相应姿态的全屏设计参考。旋转、分屏、自由多窗和显示缩放后，应重新读取实际窗口数据。
@@ -64,8 +60,6 @@
 | 全屏、分屏、悬浮窗 | 支持 | 应用仍需满足对应窗口模式的配置与适配要求 |
 | 自由多窗 | 支持 | 官方窗口模式指南单独列出 Mate XTs、Mate XT 2 支持；不据此推断所有三折叠型号均支持 |
 
-折叠和手写笔说明来源：[三折叠应用开发](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-matext-guide)；窗口模式来源：[窗口模式—不同设备支持哪些窗口模式](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-window-mode)。
-
 F/N/LM/RM/G 是使用形态名称，不是 `FoldStatus` 枚举。官方指南中的九种物理状态与显示模式对照表以 Mate XTs 为例，不能直接作为 Mate XT 2 的映射，具体关系应通过本机型的系统接口确认。
 
 ## 3. 相机信息
@@ -78,7 +72,7 @@ F/N/LM/RM/G 是使用形态名称，不是 `FoldStatus` 枚举。官方指南中
 | 外屏前置 | 800 万像素超广角 |
 | 内屏前置 | 800 万像素超广角 |
 
-来源：[华为官网规格参数](https://consumer.huawei.com/cn/phones/mate-xt-2-ultimate-design/specs/)。上述硬件配置不等于应用可同时打开的摄像头集合，也不代表每颗物理镜头都以独立相机设备暴露。
+上述硬件配置不等于应用可同时打开的摄像头集合，也不代表每颗物理镜头都以独立相机设备暴露。
 
 ### 不同形态下的方向参考
 
@@ -92,25 +86,12 @@ F/N/LM/RM/G 是使用形态名称，不是 `FoldStatus` 枚举。官方指南中
 | RM | `portrait` | 90 | 90 | 270 | 270 |
 | G | `landscape` | 90 | 90 | 270 | 270 |
 
-来源：[三折叠应用开发—相机硬件信息](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-matext-guide)。
-
 - RM 态前摄可用，但官方不推荐在该状态下使用：设备开合角度和用户位置可能影响取景体验。这不是“不支持前摄”。
 - 表内角度不能作为所有屏幕方向下的固定旋转值，也不能直接用于照片或录像方向补偿。
 - 不记录通用的固定 `cameraId`。可用相机、输出能力和折展后的设备变化，以运行时查询结果为准；保持用户选择的前后摄意图，不按镜头数组顺序猜测。
 
-## 4. 适配说明与来源
+## 4. 适配说明
 
-- 高保真可采用上表有来源的 vp 参考尺寸；实际适配和验证使用当前窗口或容器的尺寸，不把屏幕分辨率直接当作布局尺寸。
+- 高保真可采用上表的 vp 参考尺寸；实际适配和验证使用当前窗口或容器的尺寸，不把屏幕分辨率直接当作布局尺寸。
 - G 态仍属于折叠设备，不能只在 `tablet` 分支处理宽屏布局。导航位置、列表列数和分栏方式由页面内容与已确认方案决定。
 - 显示缩放、应用窗口尺寸和相机 ID 应在设备运行时获取，不能用规格表中的参考值代替。
-
-公共规则参见[设备分类与形态](../../公共规则/设备分类与形态.md)和[尺寸单位与断点](../../公共规则/尺寸单位与断点.md)。
-
-**官方资料**
-
-| 资料 | 提供内容 |
-|---|---|
-| [华为官网规格参数](https://consumer.huawei.com/cn/phones/mate-xt-2-ultimate-design/specs/) | 官方名称、系统、屏幕规格及版本差异、相机配置 |
-| [官方购买指引](https://consumer.huawei.com/cn/support/content/zh-cn16115136/) | 部分配置的正式开售日期 |
-| [三折叠应用开发](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-matext-guide) | 五种形态、px/vp、参考断点、相机角度、悬停限制、手写笔 |
-| [窗口模式](https://developer.huawei.com/consumer/cn/doc/best-practices/bpta-multi-device-window-mode) | 全屏、分屏、悬浮窗和自由多窗支持情况 |
