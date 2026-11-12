@@ -1,6 +1,11 @@
-# HUAWEI Mate 80 系列：屏幕、形态与设备能力
+---
+title: "HUAWEI Mate 80 系列：屏幕、形态与设备能力"
+summary: "华为 Mate 80 系列（Mate80）直板手机设备档案，涵盖标准版、Pro、Pro Max、Pro Max 风驰版和 RS 非凡大师，整理屏幕、分辨率、vp 参考尺寸、系统和相机信息。"
+createdAt: "2026-11-04T03:19:14Z"
+updatedAt: "2026-11-12T00:00:00Z"
+---
 
-## 设备概述
+## Overview 总体概述
 
 华为 Mate 80 系列（Mate80）直板手机设备档案，涵盖标准版、Pro、Pro Max、Pro Max 风驰版和 RS 非凡大师，整理屏幕、分辨率、vp 参考尺寸、系统和相机信息。官网所列系统为 HarmonyOS 6.0。标准版与 Pro 为 6.75 英寸、1280×2832 px；Pro Max、风驰版和 RS 为 6.9 英寸、1320×2848 px。全系前置为 1300 万像素及 3D 深感摄像头，风驰版不能沿用 Pro Max 的超长焦和红枫配置。具体参数按型号查表。
 

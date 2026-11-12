@@ -1,6 +1,11 @@
-# HUAWEI Pura X View：屏幕、形态与设备能力
+---
+title: "HUAWEI Pura X View：屏幕、形态与设备能力"
+summary: "华为 Pura X View（PuraXView）直板手机设备档案，整理屏幕尺寸、分辨率、系统版本、相机配置和窗口能力。"
+createdAt: "2026-11-04T02:47:59Z"
+updatedAt: "2026-11-12T00:00:00Z"
+---
 
-## 设备概述
+## Overview 总体概述
 
 华为 Pura X View（PuraXView）直板手机设备档案，整理屏幕尺寸、分辨率、系统版本、相机配置和窗口能力。本机型不是 Pura X 或 Pura X Max 折叠手机，采用 6.39 英寸 OLED 屏，竖屏分辨率为 1320×2232 px，支持 120 Hz 刷新率，官网所列系统为 HarmonyOS 7.0。后置包含 2 亿像素主摄、800 万像素超广角微距、5000 万像素潜望式长焦及红枫摄像头，前置为 5000 万像素。专用 vp 尚未收录，预览与实际窗口尺寸需区分。
 

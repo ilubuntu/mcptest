@@ -1,6 +1,11 @@
-# HUAWEI Pura 90 系列：屏幕、形态与设备能力
+---
+title: "HUAWEI Pura 90 系列：屏幕、形态与设备能力"
+summary: "华为 Pura 90 系列（Pura90）直板手机设备档案，涵盖标准版、Plus、Pro 和 Pro Max，汇总屏幕尺寸、分辨率、vp 参考值、系统版本和相机配置。"
+createdAt: "2026-11-04T03:19:14Z"
+updatedAt: "2026-11-12T00:00:00Z"
+---
 
-## 设备概述
+## Overview 总体概述
 
 华为 Pura 90 系列（Pura90）直板手机设备档案，涵盖标准版、Plus、Pro 和 Pro Max，汇总屏幕尺寸、分辨率、vp 参考值、系统版本和相机配置。标准版为 6.8 英寸，Pro 为 6.6 英寸，Pro Max 为 6.9 英寸；Plus 标称 6.8 英寸，标准矩形为 6.78 英寸。标准版、Pro、Pro Max 所列系统为 HarmonyOS 6.1，Plus 为 7.0。Pro Max 配备 2 亿像素长焦，Plus 使用一英寸主摄，不能共用镜头配置。各型号精确参数详见下文。
 

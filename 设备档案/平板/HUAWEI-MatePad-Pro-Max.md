@@ -1,6 +1,11 @@
-# HUAWEI MatePad Pro Max：屏幕、形态与设备能力
+---
+title: "HUAWEI MatePad Pro Max：屏幕、形态与设备能力"
+summary: "华为 MatePad Pro Max（MatePadProMax）平板设备档案，汇总屏幕、系统版本、前后摄像头和窗口交互能力。"
+createdAt: "2026-11-04T02:47:59Z"
+updatedAt: "2026-11-12T00:00:00Z"
+---
 
-## 设备概述
+## Overview 总体概述
 
 华为 MatePad Pro Max（MatePadProMax）平板设备档案，汇总屏幕、系统版本、前后摄像头和窗口交互能力。官网所列系统为 HarmonyOS 6.1，屏幕为 13.2 英寸柔性 OLED，横屏分辨率为 3000×2000 px。后置为 5000 万像素自动对焦摄像头及第二代红枫原色摄像头，前置为 1200 万像素固定焦距摄像头。支持分屏、悬浮窗、自由多窗和 M-Pencil 系列。1137×711 vp 仅作通用横屏预览参考，并非本机型专用窗口尺寸，实际适配以当前窗口和运行时相机能力为准。
 

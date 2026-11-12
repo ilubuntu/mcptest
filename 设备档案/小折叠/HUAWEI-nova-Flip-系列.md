@@ -1,6 +1,11 @@
-# HUAWEI nova Flip 系列：屏幕、形态与设备能力
+---
+title: "HUAWEI nova Flip 系列：屏幕、形态与设备能力"
+summary: "华为 nova Flip 系列小折叠手机设备档案，包含 nova Flip（novaFlip）和 nova Flip S（novaFlipS），适用于已升级至 HarmonyOS 5 及以上的设备。"
+createdAt: "2026-11-04T03:19:14Z"
+updatedAt: "2026-11-12T00:00:00Z"
+---
 
-## 设备概述
+## Overview 总体概述
 
 华为 nova Flip 系列小折叠手机设备档案，包含 nova Flip（novaFlip）和 nova Flip S（novaFlipS），适用于已升级至 HarmonyOS 5 及以上的设备。两款均记录折叠与展开、全屏、分屏和悬浮窗能力，机型专用的屏幕分辨率、vp 尺寸及镜头配置尚未收录，不使用其他小折叠型号补齐。内屏竖屏可采用通用 364×860 vp 作预览参考，但不代表固定窗口尺寸，也不能用于外屏。外屏应用范围和悬停支持需另行确认，折展后的相机集合、输出与方向参数由运行时查询确定。
 

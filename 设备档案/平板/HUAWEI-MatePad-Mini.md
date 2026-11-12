@@ -1,6 +1,11 @@
-# HUAWEI MatePad Mini：屏幕、形态与设备能力
+---
+title: "HUAWEI MatePad Mini：屏幕、形态与设备能力"
+summary: "华为 MatePad Mini（MatePadMini）平板设备档案，汇总小尺寸平板的屏幕、系统、相机和窗口能力。"
+createdAt: "2026-11-04T02:47:59Z"
+updatedAt: "2026-11-12T00:00:00Z"
+---
 
-## 设备概述
+## Overview 总体概述
 
 华为 MatePad Mini（MatePadMini）平板设备档案，汇总小尺寸平板的屏幕、系统、相机和窗口能力。屏幕为 8.8 英寸柔性 OLED，横屏分辨率 2560×1600 px，官方横屏参考尺寸为 1078×674 vp。官网所列系统为 HarmonyOS 5.1，可升级至 HarmonyOS 6 或以上。后置为 5000 万像素主摄及 800 万像素广角，前置为 3200 万像素。支持分屏、悬浮窗、自由多窗和 M-Pencil 系列；参考尺寸不等于当前窗口，布局不能仅按“平板”类型固定列数或分栏。
 
